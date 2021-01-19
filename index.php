@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <title>Formulário de Cadastro</title>
+    <title>ToDo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style type="text/css">
     
@@ -35,20 +35,23 @@
             </div>
         
             <div class="col-4">
-                <form>
-                    <div class="form-group">
-                    <button><i class="fas fa-plus"></i></button>
+                 
+                <div class="input-group input-group-lg" >
+                    <div class="col-1">
+                        <button><span class="input-group-addon"id="sizing-addon1">+</span></button>
+                    </div>
+                    <div class="col-6">
                         <label>Adicionar Tarefa</label>
                     </div>
-                    <hr>   
-                    <div class="row">
-                    <label> </label>
+                </div>
+                <hr>   
+                <div class="row">
+                <label> </label>
                         
-                    </div>
-                    </hr>   
-                    <div class="row">
-                   
-                </form>
+                </div>
+                </hr>   
+                <div class="row">
+
             </div>
         </div>
     </div>
